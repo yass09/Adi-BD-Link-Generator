@@ -5,8 +5,8 @@ body{
     align-items: center;
     flex-flow: row wrap;
     font-family: Verdana;
-    color: white;
-    background-color: #EEEEEE;
+    color: black;
+    background-color: #508EF2;
 }
 .main-container{
     flex-basis: 800px;
@@ -14,7 +14,7 @@ body{
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    background-color: dimgray;
+    background-color: white;
     padding: 30px;
     border-radius: 10px;
 }
@@ -26,7 +26,8 @@ body{
     align-items: center;
     background-color: darkgrey;
     padding: 20px;
-    border-radius: 10px
+    border-radius: 10px;
+    color: white;
 }
 .element-container{
     display: flex;
