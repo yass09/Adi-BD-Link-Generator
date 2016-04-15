@@ -9,14 +9,17 @@
 <body>
    <div class="main-container">
        <h2 class="header">Adidas BDL Generator</h2>
-       <div class="buttons-container">
-            <div class="element-container">
+       <div class="element-container">
+            <div class="element-group">
                 <h4 class="elements">Enter PID</h4>
                 <input type="text" class="pid">
             </div>
-             <div class="element-container">
+             <div class="element-group">
                  <h4 class="text elements"> Select US Size</h4>
                 <select name="Size" class="elements" id="size-selector">
+                   <option value="530" class="sizes" id="size-4">4</option>
+                   <option value="540" class="sizes" id="size-4-5">4.5</option>
+                   <option value="550" class="sizes" id="size-5">5</option>
                    <option value="560" class="sizes" id="size-5-5">5.5</option>
                    <option value="570" class="sizes" id="size-6">6</option>
                    <option value="580" class="sizes" id="size-6-5">6.5</option>
@@ -34,7 +37,7 @@
                 </select>
              </div>
             <button class="generate go-btn">Generate</button>
-             <div class="element-container"><h4 class="text elements">Result</h4><input type="text" class="link-result"></div>
+             <div class="element-group link-result"><h4 class="text elements">Result</h4><input type="text" class="link-result"></div>
        </div>
     
    </div>
