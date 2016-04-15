@@ -18,27 +18,25 @@ body{
     padding: 30px;
     border-radius: 10px;
 }
-.buttons-container{
+.element-container{
     max-width: 700px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: darkgrey;
     padding: 20px;
     border-radius: 10px;
     color: white;
 }
-.element-container{
+.element-group{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-grow: 1; 
     flex-shrink: 2;
 }
-.elements{
-    margin: 20px;
-}
+
 .pid{
     width: 70px;
     border-radius: 4px;
@@ -54,13 +52,15 @@ body{
     background-color: forestgreen;
     flex-basis: 70px;
     border-radius: 0.8em;
+    padding: 10px;
     flex-grow: 1; 
     flex-shrink: 0;
     border: none;
+    flex-grow: 1; 
 }
 
 .link-result{
-    flex-basis: 450px;
+    flex-basis: 350px;
     flex-shrink: 2;
     flex-grow: 2;
 }
